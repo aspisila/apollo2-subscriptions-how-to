@@ -2,7 +2,7 @@ import { gql } from "apollo-server";
 
 const postMutation = gql`
 	type Mutation {
-		addPost(author: String, comment: String): Post
+		addPost(picture: String, description: String): Post
 	}
 `;
 export { postMutation };
