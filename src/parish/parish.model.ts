@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const ParishSchema = new mongoose.Schema({
     name: String,
@@ -8,5 +8,5 @@ const ParishSchema = new mongoose.Schema({
     state: String
 });
 
-const Parish = mongoose.model('parishes', ParishSchema);
+const Parish = mongoose.model("parishes", ParishSchema);
 export { Parish };

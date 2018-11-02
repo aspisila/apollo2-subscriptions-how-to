@@ -1,4 +1,4 @@
-import { parishController } from './parish.controller';
+import { parishController } from "./parish.controller";
 
 const parishResolver = {
     Query: {

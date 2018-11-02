@@ -1,4 +1,4 @@
-import { Parish } from './parish.model';
+import { Parish } from "./parish.model";
 
 const parishController = {
     parishes: () => Parish.find({})
